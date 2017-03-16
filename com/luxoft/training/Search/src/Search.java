@@ -33,7 +33,7 @@ public class Search {
         return -1;
     }
 
-    public int naiveSearch_2 (ArrayList<int> list, int key){
+    public int naiveSearch_2 (ArrayList<Integer> list, int key){
         for (int i = 0; i < list.size(); i++) {
             if (list.get(i) == key) {
                 return i;
@@ -42,7 +42,7 @@ public class Search {
         return -1;
     }
 
-    public int naiveSearch_3 (ArrayList<int> list, int key){
+    public int naiveSearch_3 (ArrayList<Integer> list, int key){
         list.add(key);
         int i = 0;
         while (list.get(i) != key) {
